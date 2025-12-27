@@ -1,38 +1,44 @@
-# 💰 Rateon – Simple Crypto Project
+# 💰 Rateon – Crypto Tracker
 
 ![crypto](https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif)
 
-A lightweight crypto-related project built with vanilla JavaScript.  
-Simple, clean, and straightforward implementation.
+A real-time cryptocurrency tracking application built with vanilla JavaScript.  
+Features live price updates via WebSocket connections and interactive charts powered by Chart.js.
 
 ---
 
-## ✨ About
+## ✨ Key Features
 
-Rateon is a minimal crypto project focusing on clean code and simple UI logic.  
-No backend, no frameworks — just pure JavaScript and DOM manipulation.
+- 📊 **Real-time Price Tracking** - Live cryptocurrency prices via Binance WebSocket streams
+- 📈 **Interactive Charts** - Multi-coin price comparison with Chart.js
+- 💱 **Multi-Currency Support** - Display prices in USD, EUR, and ILS
+- 🔍 **Search & Filter** - Quickly find coins by name or symbol
+- ⭐ **Favorites System** - Select up to 5 coins to track simultaneously
+- 💾 **Smart Caching** - Local storage for improved performance
+- 🎨 **Bootstrap UI** - Clean, responsive interface with popovers and modals
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-**HTML5** · **CSS3** · **JavaScript**
+**HTML5** · **CSS3** · **JavaScript** · **Bootstrap 5** · **Chart.js** · **WebSocket** · **CoinCap API**
 
 ---
 
-## 🎯 Features
+## 🚀 How It Works
 
-- Real-time crypto data display
-- Clean and minimal interface
-- Responsive design
-- Pure vanilla JavaScript implementation
+- Fetches cryptocurrency data from CoinCap API
+- Establishes WebSocket connections to Binance for live price feeds
+- Implements intelligent caching to minimize API calls
+- Real-time chart updates with logarithmic scaling
+- Dynamic popover updates showing live prices in multiple currencies
 
 ---
 
 ## 📦 Status
 
-✅ Complete and functional
+✅ Fully functional with real-time data streaming
 
 ---
 
-> Lightweight, focused, and efficient.
+> Built with performance and user experience in mind.
